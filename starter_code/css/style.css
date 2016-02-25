@@ -1,0 +1,100 @@
+ *{
+    margin: 0;
+ }
+ #container{
+    font-family: arial;
+ }
+ header{
+ 	background-image: url("../images/header_bg.jpg");
+    background-size: cover;
+    height: 500px;
+    color: white; 
+ }
+header > h1{
+    padding: 10px 0 60px 50px;
+}
+h2{
+    margin-top: 5%;
+    padding-left: 50px;
+    text-align: center;
+}
+a.button1 {
+    background-color: #EACC51; 
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 45%;
+    margin-top: 8%;
+}
+
+section.benefits{
+    padding: 50px;
+}
+
+section.benefits > p,li{
+padding-top: 10px;
+}
+.benefits > p{
+    margin-bottom: 50px:;
+}
+section.testimonial{
+    background-image: url("../images/testimonial_bg.jpg");
+    background-size: cover;
+    height: 250px;
+    color: white;
+    text-align: center;
+
+}
+.testimonial blockquote{
+    padding: 75px 205px 10px 205px;
+    font-style: italic;
+    color: gray;
+}
+.testimonial > p{
+    font-weight: bold;
+}
+section.signup{
+background-color: #EACC51;
+}
+
+a.button2 {
+	align-self: center;
+    background-color: #0B243B; 
+    border: none;
+    color: white;
+    padding: 15px 27px;
+    margin: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 45%;
+}
+
+footer{
+    background-color: #2E2E2E;
+    color: white;
+    text-align: center;
+    height: 250px;
+    padding: 50px;
+
+}
+footer > h1{
+
+    color: #EACC51;
+}
+
+footer > p{
+
+padding: 50px;
+}
+.logo{
+
+padding-right: 35px;
+}
